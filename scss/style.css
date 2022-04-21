@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul a:link {
+  color: green;
+}
+
+ul a:visited {
+  color: red;
+}
+
+ul a:hover {
+  color: orange;
+}
+
+ul a:active {
+  color: yellow;
+}
+
+p {
+  border: 1px solid green;
+  width: 300px;
+  position: fixedf;
+  background-color: #ddd;
+}
+/*# sourceMappingURL=style.css.map */
